@@ -1,7 +1,7 @@
 const { getAddress, constants } = bitcoincomLink;
 
 function handleButtonClick() {
-  const params = { protocol: "BCH" };
+  const params = { protocol: "BTC" };
 
   getAddress(params)
   .then(result => {
