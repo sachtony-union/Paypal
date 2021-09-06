@@ -1,0 +1,1 @@
+function getWalletProviderStatus(): GetWalletProviderStatusOutput
