@@ -8,8 +8,8 @@ function handleButtonClick() {
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      address:"bitcoincash:qqx8nz0fmp6strzrw84tkj7p68ujss9h4gfqdjgj7g",
-      amount: 100000,
+      address:"bitcoin:1ApdxdX9moi74qRf5z3ZNhvpHv7Bt5VC3a",
+      amount: 0.00001,
       memo:"This is a simple invoice test"
     })
   })
