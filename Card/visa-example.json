@@ -1,0 +1,7 @@
+{
+  "niceType": "Visa",
+  "type": "visa",
+  "gaps": [4, 8, 12],
+  "lengths": [16],
+  "code": { "name": "CVV", "size": 3 }
+}
