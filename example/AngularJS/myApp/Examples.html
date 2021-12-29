@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-<body>
+ <html>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+ <body>
 
- <div ng-app="">
-  <p>Input your name:</p>
-  <p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
-  <h1>Your name is {{name}}</h1>
- </div>
- 
- <div ng-app="" ng-init="Balance=500">
-  <p>Balance: ${{ Balance }}</p>
- </div>
+  <div ng-app="">
+   <p>Input your name:</p>
+   <p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
+   <h1>Your name is {{name}}</h1>
+  </div>
+  // AngularJS Expressions
+  <div ng-app="" ng-init="Balance=500">
+   <p>Balance: ${{ Balance }}</p>
+  </div>
+  // AngularJS Numbers
+  <div ng-app="" ng-init="USD=500;cost=22690">
+    <p>Total in VND: <span ng-bind="USD * cost"></span></p>
+  </div>
 
- <div ng-app="" ng-init="USD=500;cost=22690">
-   <p>Total in VND: <span ng-bind="USD * cost"></span></p>
- </div>
-
-</body>
+ </body>
 </html>
