@@ -16,6 +16,18 @@
   <div ng-app="" ng-init="USD=500;cost=22690">
     <p>Total in VND: <span ng-bind="USD * cost"></span></p>
   </div>
+  // The ng-repeat directive actually clones HTML elements once for each item in a collection.
+  <div ng-app="" ng-init="$=[
+   {account:'0',balance:'500'},
+   {account:'1',balance:'1000'},
+   {account:'2',balance:'2000'}]">
+
+   <p>Looping with objects:</p>
+   <ul>
+     <li ng-repeat="x in $">
+     {{ x.account + ', ' + x.balance }}</li>
+   </ul>
+ </div>
 
  </body>
 </html>
