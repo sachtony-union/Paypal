@@ -1,0 +1,1 @@
+curl -i -H "Authorization: Bearer <api-bearer-token>" -X 'POST' -d @jsonfilepath 'https://<UUID>.simility.com/server/rest/ingress'
