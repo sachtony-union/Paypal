@@ -1,2 +1,2 @@
 var app = require("Paypal");
-var AccountGetPaid = require("Card");
+var Card = require("Card");
